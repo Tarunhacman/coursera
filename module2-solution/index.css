@@ -19,7 +19,7 @@ h1{
 .sec1{
     float: left;
    
-    border: 2px solid black;
+    border: 1px solid black;
     margin-right:30px;
     position: relative;
     background-color: #E57373;
@@ -29,18 +29,18 @@ h1{
 .sec2{
     float: left;
     
-    border: 2px solid black;
+    border: 1px solid black;
     margin-right: 30px;
     position: relative;
-     background-color: #00C853;
+     background-color: #E57373;
    
      /* Should be removed. Only for demonstration */
 }
 .sec3{
     float: left;
-    border: 2px solid black;
+    border: 1px solid black;
     position: relative;
-     background-color: #E0E0E0;
+     background-color: #E57373;
      /* Should be removed. Only for demonstration */
 }
 p{
@@ -49,15 +49,39 @@ p{
 	padding-bottom: 5px;
 	font-size: 15px;
 }
-.tt{
+.tt1{
 	position: absolute;
 	right: 0px;
 	top: 0px;
 	padding-bottom: 10px;
-	border:2px solid black;
+	border:1px solid black;
 	display: block;
 	text-align: center;
 	background-color: #D4E157;
+	font-size: 18.75px;
+	width:30%;
+}
+.tt2{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding-bottom: 10px;
+	border:1px solid black;
+	display: block;
+	text-align: center;
+	background-color: #9C27B0;
+	font-size: 18.75px;
+	width:30%;
+}
+.tt3{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding-bottom: 10px;
+	border:1px solid black;
+	display: block;
+	text-align: center;
+	background-color: #9E9E9E;
 	font-size: 18.75px;
 	width:30%;
 }
